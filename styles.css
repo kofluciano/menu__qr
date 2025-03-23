@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+ul{
+    list-style-type:none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #0009;
+    font-family: "Ropa Sans", sans-serif;
+}
+/*HEADER DESKTOP*/
+.header{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    font-family:"Bebas Neue", sans-serif;
+}
+.header__logo{
+border-radius: 100%;
+}
+
+.header h1 {
+    font-size: 3rem;
+    align-items: center;
+    margin-left: 36%;
+}
+
+.header__ofertas{
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.header__ofertas__div{
+    width:20vw;
+    max-width: 20vw;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+#oferta1{
+    max-width: 20vw;
+    max-height: 30vh;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px #0008;
+}
+
+#oferta2{
+    max-width: 20vw;
+    max-height: 30vh;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px #0008;
+}
+
+#oferta3{
+    max-width: 20vw;
+    max-height: 30vh;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px #0008;
+}
+
+
+.header__navbar{
+    text-decoration: none;
+    background-color: #000;
+    height: 15vh;
+    position: sticky;
+    align-content: center;
+}
+
+.header__navbar__ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto;
+}
+
+.header__navbar__ul__li{
+    width:auto;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+
+.header__navbar__ul__li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*HEADER MOBILE*/
+
+/*Section menu*/
+
+#bebidas {
+    margin: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#bebidas h2{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+#bebidas ul{
+    background-color: #0001;
+    margin-top: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #0009;
+}
+
+#bebidas h3 {
+    margin-left: 10px;
+}
+
+#bebidas p{
+    margin:20px
+}
+
+#comidas {
+    margin: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#comidas h2{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+#comidas ul{
+    background-color: #0001;
+    margin-top: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #0009;
+}
+
+
+#comidas h3 {
+    margin-left: 10px;
+}
+
+#comidas p{
+    margin:20px
+}
+
+#postres {
+    margin: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#postres ul{
+    background-color: #0001;
+    margin-top: 20px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #0009;
+}
+
+#postres h2{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+#postres h3 {
+    margin-left: 10px;
+}
+
+#postres p{
+    margin:20px
+}
+
+/*FOOTER*/
+footer{
+    background-color: #000;
+    height: 20vh;
+    align-items: center ;
+    align-content: center;
+    display: flex;
+}
+
+footer p{
+    margin: auto;
+    font-size: 1.5rem;
+    font-family:"Bebas Neue", sans-serif;;
+}
+
+
+
